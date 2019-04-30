@@ -1,7 +1,7 @@
 # Lumini Hire Test
 Se você recebeu o link para este documento, está no caminho certo, o intuito é avaliar nossos candidatos, seguindo critérios que os deixem mais livres para a realização dos desafios, assim, podemos avaliar a capacidade criativa de cada candidato, bem como a originalidade, sem a necessidade que tenham que realizar um teste técnico diretamente dentro de nosso escritório, o que pode atrapalhar o tempo do candidato e a disponibilidade de alguém para aplicar os testes.
 
-Abaixo, seguem os testes para diferentes perfis, Data Scientist, Web Designer e Fullstack Developer.
+Abaixo, seguem os testes para diferentes perfis: Data Scientist, Web Designer e Fullstack Developer.
 
 # Data Scientist
 ## Objetivo
@@ -22,6 +22,10 @@ Neste teste, peço a v. que utilize os dados anexos em um exercício de análise
 Além da análise exploratória livre, aborde o seguinte problema:
 
 * Como é possível segmentar os inscritos de forma clara e objetiva com o intuito de justificar investimentos em educação destinados a certas parcelas de alunos?
+
+É obrigatório o uso da sua conta Github para realizar o Fork deste repositório e enviar pull-request ao término do desafio, para sabermos se possui conhecimentos básicos de como funciona a ferramenta git.
+
+* Boas técnicas e conhecimentos em DataViz são um diferencial.
 
 ## Requisitos
 

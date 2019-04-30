@@ -1,7 +1,72 @@
 # Lumini Hire Test
+Se você recebeu o link para este documento, está no caminho certo, o intuito é avaliar nossos candidatos, seguindo critérios que os deixem mais livres para a realização dos desafios, assim, podemos avaliar a capacidade criativa de cada candidato, bem como a originalidade, sem a necessidade que tenham que realizar um teste técnico diretamente dentro de nosso escritório, o que pode atrapalhar o tempo do candidato e a disponibilidade de alguém para aplicar os testes.
 
+Abaixo, seguem os testes para diferentes perfis, Data Scientist, Web Designer e Fullstack Developer.
+
+# Data Scientist
 ## Objetivo
-Testar as habilidades de novos candidatos a cargos de Desenvolvedor C#.
+
+Testar as habilidades do candidato em técnicas de análise exploratória de dados.
+
+## Critérios de Avaliação
+
+* A análise exploratória deve ser reprodutível
+* O relatório deve explicar clara e concisamente os conceitos estatísticos envolvidos nas análises e nos testes de hipótese, se aplicáveis
+* Cada gráfico deve conter legendas, eixos com títulos significativos e uma breve descrição do motivo de haver sido construído
+* Referências de citações
+
+## Desafio
+
+Neste teste, peço a v. que utilize os dados anexos em um exercício de análise exploratória. Trata-se de uma amostra de inscrições no ENEM de 2016. Utilize as tecnologias, processos e métodos que você preferir para criar um caderno de apresentação do conteúdo descoberto que **contenha o código utilizado e seja reprodutível**.
+
+Além da análise exploratória livre, aborde o seguinte problema:
+
+* Como é possível segmentar os inscritos de forma clara e objetiva com o intuito de justificar investimentos em educação destinados a certas parcelas de alunos?
+
+## Requisitos
+
+* Python, R ou ML.NET
+
+## Suprimentos
+Os arquivos necessários para a realização do desafio está na pasta "sample_data", chama-se "[Microdados_Enem_2016.zip](https://github.com/lumini-it-solutions/lumini-hire-test/raw/master/sample_data/Microdados_Enem_2016.zip)".
+
+------------------------------------------------------------------------
+
+# Web Designer (Front-End)
+## Objetivo
+Testar as habilidades dos candidatos em desenvolvimento de UX e UI, além de diagramação (quando necessário).
+
+Desconsiderar os arquivos já existentes neste repositório, crie novos.
+
+É obrigatório o uso da sua conta Github para realizar o Fork deste repositório e enviar pull-request ao término do desafio, para sabermos se possui conhecimentos básicos de como funciona a ferramenta git.
+
+## Critérios de Avaliação
+* Aparência
+* Criatividade
+* Originalidade
+* Coerência
+* Semântica
+* Reusabilidade
+* Documentação
+
+## Desafio
+Criar uma SPA (Single Page Application) de um site empresarial (fictício), estático, com efeitos visuais coerentes.
+
+Diagramar um Layout Dashboard (cores, gráficos, fontes, disposição de elementos e efeitos visuais como transição ou animação em gráficos).
+
+# Requisitos
+* Documentar as técnicas e ferramentas utilizadas.
+* Não usar Angular, React ou outro Framework do gênero.
+* HTML 5
+* CSS 3
+* ECMAScript
+* Pode usar ferramentas padrões de mercado como: Bootstrap, JQuery, D3, etc.
+
+------------------------------------------------------------------------
+
+# Fullstack Developer
+## Objetivo
+Testar as habilidades dos candidatos em desenvolvimento C# .NET Core.
 
 ## Critérios de Avaliação
 * Legibilidade de Código
@@ -14,31 +79,45 @@ Testar as habilidades de novos candidatos a cargos de Desenvolvedor C#.
 * Velocidade
 * Documentação
 
-## Requisitos de Sistema
-* dotnet core 2.2.104
-* sem depêndencia de Sistema Operacional ou ferramentas de plataforma fechada (Excel)
-
 ## Desafios de Desenvolvimento
-Criar uma aplicação com autenticação por usuário e senha utilizando banco local (SQLite), também poderá ser utilizado, caso tenha conhecimento, Elasticsearch (6.3) para a carga dos dados massivos disponíveis em sample_data, caso considere pouco tempo, poderá criar seu próprio sample de aplicação com CRUD, telas de cadastro (privadas) e de consulta (públicas).
+O candidato é livre a usar as técnicas de desenvolvimento que achar melhor, desde que atenda os requisitos. Para dev Jr e Pleno, desconsiderar os arquivos já existentes neste repositório, crie novos.
 
-Dashboard com gráficos que agregam as informações no banco e demonstrem de forma concisa.
+Poderá incrementar o desafio com funcionalidades dentro do mesmo escopo, caso faça bem feito, terá destaque com pontuação extra, use a criatividade.
 
-Os dados em sample_data foram extraídos de uma [fonte pública](https://catalog.data.gov/dataset/college-scorecard) e possui um [catálogo público de referência](https://collegescorecard.ed.gov/). Os dados referem-se à **Scorecard Universitário**.
+O Layout não é relevante, mas uma boa apresentação tem destaque. Semântica HTML não é levada em consideração.
 
-Para consumir esses dados, também é proposto a criação de um **Console Application** para a carga dos arquivos CSV (apenas) para o banco de dados ou para o elasticsearch.
+É obrigatório o uso da sua conta Github para realizar o Fork deste repositório e enviar pull-request ao término do desafio, para sabermos se possui conhecimentos básicos de como funciona a ferramenta git.
 
-O candidato é livre a usar as técnicas de desenvolvimento que achar melhor, desde que atenda os requisitos mínimos (primeiro parágrafo) no prazo.
+### Dev Jr
+Criar um blog utilizando Razor Pages ou MVC com banco de dados SQLite, os posts devem poder serem lidos sem precisar se autenticar na aplicação, contudo, para poder publicar um novo artigo, é preciso estar registrado no blog.
 
-## Prazo
-É dado ao candidato o prazo de 5 dias úteis para desenvolver a aplicação após o disparo de e-mail com solicitação de fork deste projeto.
+### Requisitos
+* dotnet core 2.2 ou superior.
+* Tem que rodar em qualquer sistema operacional.
+* SQLite
+* Bootstrap
+* Razor Pages ou MVC
+* ASP.NET Identity
 
-## Requisitos - Dev JR
-CRUD com três consultas, cadastros, edições, exclusões com autenticação e três telas de listagem pública.
-Usar SQLite para o banco de dados.
-Usar bootstrap para a criação das telas.
+### Dev Pleno
+Criar uma aplicação para controle de estoque, com saída e entrada de notas fiscais e produtos. As telas de gestão deverão estar com acesso restrito para usuários registrados, uma tela pública (sem autenticação) para consulta de estoque deverá existir.
 
-## Requisitos - Dev PL
-Mesmo que Dev JR + Dashboard de gráficos para "gestão" dos dados cadastrados e coletor de dados que leia todos os arquivos CSV do sample data e os carregue em uma base de dados. Usar ajax para carga de dados (ou angular/react).
+### Requisitos
+* dotnet core 2.2 ou superior.
+* Tem que rodar em qualquer sistema operacional.
+* SQLite
+* Bootstrap
+* Razor Pages ou MVC
+* ASP.NET Identity
 
-## Requisitos - Dev SR
-Mesmo que Dev PL + Coletor precisa realizar processamento paralelo com otimização de processamento e memória para leitura por stream (sem leitura completa em memória) e carga dos dados em Elasticsearch (6.3), os dados devem ser exibidos no dashboard, o site de catálogo serve como exemplo para idéias de gráficos e análises.
+### Dev SR
+Realizar a ingestão dos dados em "sample_data", "[CollegeScorecard_Raw_Data.zip](https://github.com/lumini-it-solutions/lumini-hire-test/raw/master/sample_data/CollegeScorecard_Raw_Data.zip)", a carga deverá ser realizada para dentro de um Elasticsearch, em um índice nomeado como "scorecard". Criar uma aplicação com Dashboard (acesso privado) para a visualização e uma pesquisa dos dados (acesso público).
+
+### Requisitos
+* dotnet core 2.2 ou superior.
+* Tem que rodar em qualquer sistema operacional.
+* SQLite
+* Bootstrap
+* Razor Pages ou MVC
+* ASP.NET Identity
+* Elasticsearch

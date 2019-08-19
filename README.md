@@ -35,8 +35,46 @@ Além da análise exploratória livre, aborde o seguinte problema:
 Os arquivos necessários para a realização do desafio está na pasta "sample_data", chama-se "[Microdados_Enem_2016.zip](https://github.com/lumini-it-solutions/lumini-hire-test/raw/master/sample_data/Microdados_Enem_2016.zip)".
 
 ------------------------------------------------------------------------
+# Web Designer (Front-End) REACT/NODE.JS
+## Objetivo
+Testar as habilidades dos candidatos em desenvolvimento de UX e UI, além de diagramação (quando necessário).
 
-# Web Designer (Front-End)
+Desconsiderar os arquivos já existentes neste repositório, crie novos.
+
+É obrigatório o uso da sua conta Github para realizar o Fork deste repositório e enviar pull-request ao término do desafio, para sabermos se possui conhecimentos básicos de como funciona a ferramenta git.
+
+**Não versione os binários de dependência (node_modules).**
+
+## Critérios de Avaliação
+* Aparência
+* Criatividade
+* Originalidade
+* Coerência
+* Semântica
+* Reusabilidade
+* Documentação
+
+## Desafios
+### Pleno
+Criar uma SPA (Single Page Application) de um site empresarial (fictício), estático, com efeitos visuais coerentes.
+
+Diagramar um Layout Dashboard (cores, gráficos, fontes, disposição de elementos e efeitos visuais como transição ou animação em gráficos).
+
+### Sênior
+Criar um mini e-commerce, bem apresentável com telas de controle (administração) contendo um Dashboard coeerente com a aplicação, contendo animações, transições e semântica.
+
+## Requisitos
+* Documentar as técnicas e ferramentas utilizadas.
+* REACT
+* **NÃO** misturar com outros frameworks (Angular, Vue.Js, etc.)
+* HTML 5
+* CSS 3
+* ECMAScript 6 (ES6)+
+* Pode usar ferramentas padrões de mercado como: Bootstrap, JQuery, D3, amcharts, etc.
+* Poucas dependências, projetos que levarem entre 3 e 5 minutos para serem atualizados (npm install / yarn install), perderão pontos na avaliação, acima disso serão desclassificados.
+
+------------------------------------------------------------------------
+# Web Designer (Front-End) C#
 ## Objetivo
 Testar as habilidades dos candidatos em desenvolvimento de UX e UI, além de diagramação (quando necessário).
 
